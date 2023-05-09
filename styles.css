@@ -1,0 +1,117 @@
+
+body{
+  padding:20px;  
+ background-image:url(https://cdn.pixabay.com/photo/2021/07/21/08/33/lavenders-6482579_1280.jpg), linear-gradient(#C2C1C2,#C2C1C2); 
+ background-blend-mode:overlay;
+ background-size:cover; 
+font-size:1.2em;
+font-family:sans-serif; 
+margin:0;
+line-height:3em;
+color:#EADDE1;
+}
+
+#title{
+  color:#42213D;  
+  font-size:4rem;
+  margin-bottom:0.25em;
+}
+
+#description{
+  color:#42213D;
+  font-weight:bold;
+  font-style:italic;
+  font-size:1.28rem;
+}
+
+.form_body{
+  display:block;  
+  max-width:780px;
+  margin: 3.25rem auto 3.25rem auto;
+}
+
+form{
+  background-color:#42213D;
+  padding:30px;  
+  border-radius:0.45rem;
+  opacity:90%;
+}
+
+.form-control{
+  display:block;
+  width:100%;
+  height:2.5rem;
+  padding:1em;
+  font-size:1rem;
+  margin-bottom:1em;
+}
+
+fieldset{
+  border:none;
+}
+
+hr{
+  margin:1em;
+}
+
+h1,p{
+  text-align:center;
+  font-weight:bold;
+}
+
+
+
+label,.checkbox-question,.drop-question,.radio-question, .about-question{
+  text-align:left;
+  font-style:italic;  
+  font-size:1.05em;
+  font-weight:bold;
+}
+
+#dropdown{
+  font-size:1rem;
+  padding:0.25em 1em;
+  margin-left:1em;
+}
+
+.radio-question{
+  display:inline-block;
+}
+
+input[type="checkbox"] + label{
+  display:inline-block;  
+  vertical-align:middle;
+  font-weight:normal;
+}
+
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px #B386A5;
+}
+
+textarea{
+  display:block;
+  height:8em;
+  width:80%; 
+  font-size:1rem;
+  margin-left:10%;
+  margin-bottom:3em;
+}
+
+input[type="submit"]{
+  display:block;
+  width: 75%;
+  height:2rem;
+  margin:1em auto;
+  background:#B5F44A;
+  border-color:#B5F44A;
+  border-radius:.25rem;
+  color:#42213D;
+  font-weight:bold;
+  font-size:1em;
+  text-align:center;
+  cursor:pointer;
+}
+
+input[type=submit]:hover {
+    box-shadow:0px 0px 10px #B386A5;
+}
