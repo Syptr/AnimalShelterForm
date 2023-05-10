@@ -45,9 +45,9 @@ form {
     margin-bottom: 1em;
 }
 
-@media {
-    .form-control {
-        height: 60px;
+@media (max-width:640){
+    .form-control{
+        height:60px !important;
     }
 }
 
